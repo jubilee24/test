@@ -14,18 +14,18 @@ void printArray(int n){
 int main()
 {
 
-    // int arr[5] = {1, 3, 4, 6, 7};
-    // cout<<arr[0]<<endl;
+    int arr[5] = {1, 3, 4, 6, 7};
+     cout<<arr[0]<<endl;
 
-    // int n;
-    // cin >> n;
-    // int a[n];
+    int n;
+    cin >> n;
+    int a[n];
 
-    // for (int i = 0; i < n; i++)
-    // {
-    //     a[n] = {1};
-    //     cout << a[n] << endl;
-    // }
+    for (int i = 0; i < n; i++)
+    {
+        a[n] = {1};
+        cout << a[n] << endl;
+    }
 
     return 0;
 }
